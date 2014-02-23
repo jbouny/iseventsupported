@@ -137,3 +137,9 @@ w('pagehide', window);
 
 w('onbeforescriptexecute', document);
 w('onafterscriptexecute', document);
+
+document.write('<h2>Motion events</h2>');
+
+w('deviceorientation', window);
+w('devicemotion', window);
+w('orientationchange', window);
